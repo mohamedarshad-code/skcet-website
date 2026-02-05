@@ -1,0 +1,51 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="libBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#78350f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#92400e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#libBg)"/>
+  
+  <!-- Bookshelves -->
+  <rect x="50" y="150" width="150" height="350" fill="#451a03" stroke="#78350f" stroke-width="3"/>
+  <rect x="250" y="150" width="150" height="350" fill="#451a03" stroke="#78350f" stroke-width="3"/>
+  <rect x="450" y="150" width="150" height="350" fill="#451a03" stroke="#78350f" stroke-width="3"/>
+  <rect x="650" y="150" width="100" height="350" fill="#451a03" stroke="#78350f" stroke-width="3"/>
+  
+  <!-- Books on shelves -->
+  <g fill="#dc2626">
+    <rect x="60" y="170" width="20" height="80" rx="2"/>
+    <rect x="90" y="170" width="20" height="80" rx="2"/>
+    <rect x="120" y="170" width="20" height="80" rx="2"/>
+    <rect x="150" y="170" width="20" height="80" rx="2"/>
+  </g>
+  
+  <g fill="#2563eb">
+    <rect x="260" y="170" width="20" height="80" rx="2"/>
+    <rect x="290" y="170" width="20" height="80" rx="2"/>
+    <rect x="320" y="170" width="20" height="80" rx="2"/>
+    <rect x="350" y="170" width="20" height="80" rx="2"/>
+  </g>
+  
+  <g fill="#16a34a">
+    <rect x="460" y="170" width="20" height="80" rx="2"/>
+    <rect x="490" y="170" width="20" height="80" rx="2"/>
+    <rect x="520" y="170" width="20" height="80" rx="2"/>
+    <rect x="550" y="170" width="20" height="80" rx="2"/>
+  </g>
+  
+  <!-- Reading Table -->
+  <rect x="200" y="450" width="400" height="20" fill="#92400e" rx="5"/>
+  <rect x="250" y="470" width="20" height="30" fill="#78350f"/>
+  <rect x="530" y="470" width="20" height="30" fill="#78350f"/>
+  
+  <!-- Laptop on table -->
+  <rect x="350" y="430" width="100" height="60" fill="#1e293b" rx="3"/>
+  <rect x="360" y="440" width="80" height="40" fill="#60a5fa"/>
+  
+  <!-- Text -->
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fef3c7" text-anchor="middle">Digital Library</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="labBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#labBg)"/>
+  
+  <!-- Lab Tables -->
+  <rect x="50" y="300" width="300" height="150" fill="#475569" rx="5"/>
+  <rect x="450" y="300" width="300" height="150" fill="#475569" rx="5"/>
+  
+  <!-- Computer Monitors -->
+  <rect x="100" y="250" width="120" height="80" fill="#1e293b" stroke="#64748b" stroke-width="3" rx="5"/>
+  <rect x="110" y="260" width="100" height="60" fill="#3b82f6"/>
+  
+  <rect x="500" y="250" width="120" height="80" fill="#1e293b" stroke="#64748b" stroke-width="3" rx="5"/>
+  <rect x="510" y="260" width="100" height="60" fill="#10b981"/>
+  
+  <!-- Equipment -->
+  <circle cx="300" cy="350" r="30" fill="#ef4444" opacity="0.8"/>
+  <circle cx="300" cy="350" r="20" fill="#dc2626"/>
+  
+  <rect x="550" y="340" width="60" height="80" fill="#64748b" rx="5"/>
+  <rect x="560" y="350" width="40" height="20" fill="#fbbf24"/>
+  
+  <!-- Robotic Arm -->
+  <line x1="150" y1="450" x2="150" y2="350" stroke="#94a3b8" stroke-width="8"/>
+  <line x1="150" y1="350" x2="220" y2="320" stroke="#94a3b8" stroke-width="8"/>
+  <circle cx="220" cy="320" r="15" fill="#f59e0b"/>
+  
+  <!-- Cables -->
+  <path d="M 250 400 Q 280 420 310 400" stroke="#6366f1" stroke-width="4" fill="none"/>
+  <path d="M 550 400 Q 580 420 610 400" stroke="#8b5cf6" stroke-width="4" fill="none"/>
+  
+  <!-- Text -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#f1f5f9" text-anchor="middle">Research Lab</text>
+</svg>

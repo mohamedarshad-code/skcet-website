@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="courtBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0c4a6e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0369a1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#courtBg)"/>
+  
+  <!-- Court Floor -->
+  <rect y="200" width="800" height="400" fill="#d97706"/>
+  
+  <!-- Court Lines -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="400" cy="400" r="80" stroke="#ffffff" stroke-width="4" fill="none"/>
+  
+  <!-- Basketball Hoop -->
+  <rect x="50" y="250" width="20" height="150" fill="#78350f"/>
+  <rect x="40" y="240" width="40" height="20" fill="#dc2626"/>
+  <circle cx="60" cy="250" r="30" stroke="#dc2626" stroke-width="5" fill="none"/>
+  
+  <!-- Opposite Hoop -->
+  <rect x="730" y="250" width="20" height="150" fill="#78350f"/>
+  <rect x="720" y="240" width="40" height="20" fill="#dc2626"/>
+  <circle cx="740" cy="250" r="30" stroke="#dc2626" stroke-width="5" fill="none"/>
+  
+  <!-- Basketball -->
+  <circle cx="400" cy="350" r="40" fill="#ea580c" stroke="#9a3412" stroke-width="3"/>
+  <path d="M 400 310 Q 420 350 400 390" stroke="#9a3412" stroke-width="2" fill="none"/>
+  <path d="M 360 350 Q 400 330 440 350" stroke="#9a3412" stroke-width="2" fill="none"/>
+  
+  <!-- Bleachers -->
+  <rect x="100" y="100" width="200" height="80" fill="#475569" opacity="0.7"/>
+  <rect x="500" y="100" width="200" height="80" fill="#475569" opacity="0.7"/>
+  
+  <!-- Text -->
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">Sports Complex</text>
+</svg>
